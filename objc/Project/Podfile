@@ -50,6 +50,10 @@ def release_pod
       'Log',
       'Unique'
     ]
+  pod 'VEAppUpdateHelper', :subspecs => [
+        'VEUpdateHelper',
+        'VEUpdateView'
+    ]
 end
 
 def ov_pod
