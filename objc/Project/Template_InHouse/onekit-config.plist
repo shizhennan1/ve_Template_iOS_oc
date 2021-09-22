@@ -33,6 +33,11 @@
 			<key>debug</key>
 			<true/>
 		</dict>
+		<key>app_update_helper</key>
+		<dict>
+			<key>domain_name</key>
+			<string>PLATFORM_DOMAINS</string>
+		</dict>
 	</dict>
 	<key>version</key>
 	<integer>1</integer>
