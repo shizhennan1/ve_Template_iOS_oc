@@ -44,15 +44,23 @@
 
 #pragma mark TTAppUpdateDelegate
 - (void)updateViewShouldShow:(TTAppUpdateTipView *)tipView model:(TTAppUpdateModel *)model {
-    //弹窗开启弹窗
-//    if ([model.enable_popup boolValue]) {
+    //弹窗开启弹窗，先判断url有效性
+    if ([self verifyWebUrlAddress:model.downloadURL]) {
         [tipView show];
-//    }
+    }
     //弹窗关闭业务自己处理数据，不用处理tipView
 }
 
 - (void)updateViewShouldClosed:(TTAppUpdateTipView *)tipView {
     [tipView hide];
     self.updateHelper = nil;
+}
+
+- (BOOL)verifyWebUrlAddress:(NSString *)webUrl
+{
+    if (!webUrl) {
+          return NO;
+      }
+    return [UIApplication.sharedApplication canOpenURL:[NSURL URLWithString:webUrl]];
 }
 @end
