@@ -36,7 +36,8 @@
 		<key>app_update_helper</key>
 		<dict>
 			<key>domain_name</key>
-			<string>domain</string>
+			<string>https://release-api.vemarsdev.com
+</string>
 		</dict>
 	</dict>
 	<key>version</key>
