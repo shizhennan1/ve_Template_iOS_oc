@@ -36,7 +36,7 @@
 		<key>app_update_helper</key>
 		<dict>
 			<key>domain_name</key>
-			<string>PLATFORM_DOMAINS</string>
+			<string>domain</string>
 		</dict>
 	</dict>
 	<key>version</key>
@@ -44,13 +44,13 @@
 	<key>project_info</key>
 	<dict>
 		<key>ak</key>
-		<string>f305c582696016d13fb2386093c519f0</string>
+		<string>4721795c60e951fcee49986003fa9cc8</string>
 		<key>sk</key>
-		<string>3ce6a09176366e6f66c1ce345818ce80</string>
+		<string>02a971e75b1631cfc0485ea162302737</string>
 		<key>app_id</key>
-		<string>10063409</string>
+		<string>297306</string>
 		<key>is_inhouse_app</key>
-		<false/>
+		<true/>
 	</dict>
 </dict>
 </plist>
