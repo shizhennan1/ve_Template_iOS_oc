@@ -36,7 +36,7 @@
 		<key>app_update_helper</key>
 		<dict>
 			<key>domain_name</key>
-			<string>domain</string>
+			<string>https://test-api.vemarsdev.com</string>
 		</dict>
 	</dict>
 	<key>version</key>
@@ -44,11 +44,11 @@
 	<key>project_info</key>
 	<dict>
 		<key>ak</key>
-		<string>4721795c60e951fcee49986003fa9cc8</string>
+		<string>d66bedd90b28e8770aa93eb0afe5dfe5</string>
 		<key>sk</key>
-		<string>02a971e75b1631cfc0485ea162302737</string>
+		<string>502354ddf7fad8a64b7d6bede0620178</string>
 		<key>app_id</key>
-		<string>297306</string>
+		<string>768190843</string>
 		<key>is_inhouse_app</key>
 		<true/>
 	</dict>
